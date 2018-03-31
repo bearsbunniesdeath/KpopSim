@@ -91,12 +91,12 @@ namespace KpopSimEngine
         Injured
     }
 
-    public struct IdolPotential
+    public enum IdolPotential
     {
-        public const double A = 2;
-        public const double B = 1.5;
-        public const double C = 1;
-        public const double D = 0.75;
+        A,
+        B,
+        C,
+        D,
     }
 
     public enum Gender

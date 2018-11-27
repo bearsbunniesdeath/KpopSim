@@ -5,6 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Data\Names\FemaleGivenNames.txt">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data\Names\UnisexGivenNames.txt">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
   </ItemGroup>
 
